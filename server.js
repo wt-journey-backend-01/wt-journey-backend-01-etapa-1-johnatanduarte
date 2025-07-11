@@ -82,6 +82,7 @@ app.post("/contato", (req, res) => {
                 <div class="agradecimento">
                     <p>Olá, <strong>${nome}</strong>!</p>
                     <p>Agradecemos seu contato. Recebemos sua mensagem sobre "${assunto}".</p>
+                    <p>Mensagem: <strong>${mensagem}</strong></p>
                     <p>Responderemos em breve no e-mail: <strong>${email}</strong>.</p>
                 </div>
                 <a href="/">Voltar para a Página Inicial</a>
